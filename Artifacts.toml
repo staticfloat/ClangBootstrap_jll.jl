@@ -1,0 +1,142 @@
+[[ClangBootstrap]]
+arch = "x86_64"
+git-tree-sha1 = "62504fc6ab68f9c7ee70b803a162aacd32d1acc1"
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "macos"
+
+    [[ClangBootstrap.download]]
+    sha256 = "26f77d421f7d249963f3f83abde88596f8cc7fb4ab597fbc068d84c83d864fd6"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
+[[ClangBootstrap]]
+arch = "x86_64"
+git-tree-sha1 = "5f2cfd0545f210d50c5a7e4b6c6b6bf5e7d29449"
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_os = "macos"
+
+    [[ClangBootstrap.download]]
+    sha256 = "1e98c82ff56af110640e819b9399b84d4456ccfd81a351335aaf35d1e5608798"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
+[[ClangBootstrap]]
+arch = "aarch64"
+git-tree-sha1 = "b653ffde4b4e77930a84b51cdacecafa4019be0c"
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "macos"
+
+    [[ClangBootstrap.download]]
+    sha256 = "846ad32a185a7c6a2494108fd872f17c91e789e215fb8b13e2285b7ffb173778"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
+[[ClangBootstrap]]
+arch = "aarch64"
+git-tree-sha1 = "e8a97e3e0a13703aa0aa6efee30305b552ddf329"
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_os = "macos"
+
+    [[ClangBootstrap.download]]
+    sha256 = "f6d079e1a06491a89068fdb906460e9aaf1a198be8f789650757eef00ff5814a"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
+
+[[ClangBootstrap-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "9344b379c6137405555ccc35b19f877393838951"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "macos"
+
+    [[ClangBootstrap-build_log.download]]
+    sha256 = "223d4322b5c9f48f6c342c2b53758279c8240527f6a4ed3a928daedcf7be43d9"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-build_log-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
+[[ClangBootstrap-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "94a4be23cdc7c52bb6e9ae97daf2b93c9023f6b6"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_os = "macos"
+
+    [[ClangBootstrap-build_log.download]]
+    sha256 = "c4fc029798f1edc1c277afb2b1b8b148a44cd8964f7223f9c18ff434e948318e"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-build_log-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
+[[ClangBootstrap-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "ef996512414090fb05c1de08040b1a924935cfa9"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "macos"
+
+    [[ClangBootstrap-build_log.download]]
+    sha256 = "0bf8c56bc6f6b4cf2e78413306c4c5be5535573430c4ec369ee9d55ed65d9eef"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-build_log-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
+[[ClangBootstrap-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "f946ecf78cb404e821099358e7064f3032366035"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_os = "macos"
+
+    [[ClangBootstrap-build_log.download]]
+    sha256 = "80e68107cf196a764d2260cce92acdfca019aa092b1922ca6fd9789008ccd470"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-build_log-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
+
+[[ClangBootstrap-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "5a262a08b2c052573e001fd23f23a47a89f70cd7"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "macos"
+
+    [[ClangBootstrap-extract_log.download]]
+    sha256 = "d2ed13ace75aa6d752300e55f2ac03d1e318b2dafff4bb305244fbde8977f8a1"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-extract_log-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
+[[ClangBootstrap-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "2567f76c540967a5668917231e953fb6472d3e58"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_os = "macos"
+
+    [[ClangBootstrap-extract_log.download]]
+    sha256 = "b3b32e2f17ffe1b81bbc94c39080138c628de91d709a5b5718961a5a126ccf95"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-extract_log-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
+[[ClangBootstrap-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "6c15c5957303be0b1b9a2e41361178ecef1e8827"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "macos"
+
+    [[ClangBootstrap-extract_log.download]]
+    sha256 = "818bef9f6dccda4f3388828b592da036484d846b4e9f177df294ae9017afbb40"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-extract_log-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
+[[ClangBootstrap-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "4bf7e2b0e9008d77940ce83351d087c6906fda7c"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_os = "macos"
+
+    [[ClangBootstrap-extract_log.download]]
+    sha256 = "f331a8afbab450fbd0731cc52163595a97b09b0bba420e408ba280a0b0cb1613"
+    url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-extract_log-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
