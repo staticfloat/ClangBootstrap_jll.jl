@@ -13,16 +13,12 @@ The binaries for `ClangBootstrap` have been built from upstream sources version 
 
 `ClangBootstrap` is available for the following platforms:
 
- - `CrossPlatform(Linux x86_64 {libc=glibc} -> macOS x86_64)`
- - `CrossPlatform(Linux x86_64 {libc=glibc} -> macOS aarch64)`
- - `CrossPlatform(Linux aarch64 {libc=glibc} -> macOS x86_64)`
- - `CrossPlatform(Linux aarch64 {libc=glibc} -> macOS aarch64)`
+ - `CrossPlatform(Linux x86_64 {libc=glibc} -> AnyPlatform)`
+ - `CrossPlatform(Linux aarch64 {libc=glibc} -> AnyPlatform)`
 # Dependencies
 The following JLL packages are required by `ClangBootstrap`:
 
- - `XML2_jll`
  - `Zlib_jll`
- - `macOSSDK_jll`
 # Products
 
 The code bindings within this package are generated to wrap the following `Product`s:

@@ -3,9 +3,7 @@ uuid = "1c3265fa-5321-5617-9ca7-cf242d4cad19"
 version = "17.0.0"
 
 [deps]
-XML2_jll = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
-macOSSDK_jll = "52f8e75f-aed1-5264-b4c9-b8da5a6d5365"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LazyJLLWrappers = "21706172-204c-4d4f-5420-656854206f44"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"

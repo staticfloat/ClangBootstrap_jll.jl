@@ -5,7 +5,7 @@ platform_augmentation_code = ""
 
 [[builds]]
 name = "ClangBootstrap"
-platform = "x86_64-linux-gnu-target_os+macos-target_arch+x86_64"
+platform = "x86_64-linux-gnu-target+any"
 lazy = "false"
 src_version = "17.0.6"
 
@@ -14,33 +14,25 @@ src_version = "17.0.6"
     filename = "LICENSE.TXT"
 
     [[builds.deps]]
-    name = "XML2_jll"
-    uuid = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
-    compat = "*"
-    [[builds.deps]]
     name = "Zlib_jll"
     uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
-    compat = "*"
-    [[builds.deps]]
-    name = "macOSSDK_jll"
-    uuid = "52f8e75f-aed1-5264-b4c9-b8da5a6d5365"
     compat = "*"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:9344b379c6137405555ccc35b19f877393838951"
+    treehash = "sha1:3ed0492a44bdf537f04933456eacecd046b92b2a"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:223d4322b5c9f48f6c342c2b53758279c8240527f6a4ed3a928daedcf7be43d9"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-build_log-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:70d87f87231513c9aa09dfbf2a20eea40ea0df13ff8ba19ec31bba0517b6e9a3"
+        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-build_log-v17.0.0-x86_64-linux-gnu-target+any.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:5a262a08b2c052573e001fd23f23a47a89f70cd7"
+    treehash = "sha1:50bd5aeab2e661e1770d965610695d610e2797c5"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:d2ed13ace75aa6d752300e55f2ac03d1e318b2dafff4bb305244fbde8977f8a1"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-extract_log-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:8cb5da1b3b458b5811604f0bcf61448c01b6a0c3ae50f10ff388c426980924f1"
+        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-extract_log-v17.0.0-x86_64-linux-gnu-target+any.tar.gz"
 
     [[builds.products]]
     name = "clang"
@@ -59,14 +51,14 @@ src_version = "17.0.6"
     url = "/home/sabae/src/BB2/bootstrap/ClangBootstrap/patches"
 
     [builds.artifact]
-    treehash = "sha1:62504fc6ab68f9c7ee70b803a162aacd32d1acc1"
+    treehash = "sha1:70ab6ddbfb28b0a6ffc577975ce037801352b8df"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:26f77d421f7d249963f3f83abde88596f8cc7fb4ab597fbc068d84c83d864fd6"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:aab3e469d41a2e5b025cf273c4d7d8386b407e0cef5ff086828e379dbf4f2955"
+        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-v17.0.0-x86_64-linux-gnu-target+any.tar.gz"
 [[builds]]
 name = "ClangBootstrap"
-platform = "x86_64-linux-gnu-target_os+macos-target_arch+aarch64"
+platform = "aarch64-linux-gnu-target+any"
 lazy = "false"
 src_version = "17.0.6"
 
@@ -75,33 +67,25 @@ src_version = "17.0.6"
     filename = "LICENSE.TXT"
 
     [[builds.deps]]
-    name = "XML2_jll"
-    uuid = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
-    compat = "*"
-    [[builds.deps]]
     name = "Zlib_jll"
     uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
-    compat = "*"
-    [[builds.deps]]
-    name = "macOSSDK_jll"
-    uuid = "52f8e75f-aed1-5264-b4c9-b8da5a6d5365"
     compat = "*"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:94a4be23cdc7c52bb6e9ae97daf2b93c9023f6b6"
+    treehash = "sha1:8e4b5863a66070abecc58344a419bdd960a0e15f"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:c4fc029798f1edc1c277afb2b1b8b148a44cd8964f7223f9c18ff434e948318e"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-build_log-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:c3557d453f4bca13cc29113b176bb1b59406604c5d8f5186dc4b712aa2f8d430"
+        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-build_log-v17.0.0-aarch64-linux-gnu-target+any.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:2567f76c540967a5668917231e953fb6472d3e58"
+    treehash = "sha1:8fa5df65fcb6d5f054a07df8f64cf3f6859160b2"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b3b32e2f17ffe1b81bbc94c39080138c628de91d709a5b5718961a5a126ccf95"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-extract_log-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:98258b8efc92d81c4d562d17ae3b1e74b80c0e7f660cca024114c000d9231a09"
+        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-extract_log-v17.0.0-aarch64-linux-gnu-target+any.tar.gz"
 
     [[builds.products]]
     name = "clang"
@@ -120,130 +104,8 @@ src_version = "17.0.6"
     url = "/home/sabae/src/BB2/bootstrap/ClangBootstrap/patches"
 
     [builds.artifact]
-    treehash = "sha1:5f2cfd0545f210d50c5a7e4b6c6b6bf5e7d29449"
+    treehash = "sha1:bd06ce757f0b4f2ad8beb82b9b2886913fa93743"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:1e98c82ff56af110640e819b9399b84d4456ccfd81a351335aaf35d1e5608798"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-v17.0.0-x86_64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
-[[builds]]
-name = "ClangBootstrap"
-platform = "aarch64-linux-gnu-target_os+macos-target_arch+x86_64"
-lazy = "false"
-src_version = "17.0.6"
-
-    [[builds.licenses]]
-    license_text = "==============================================================================\nThe LLVM Project is under the Apache License v2.0 with LLVM Exceptions:\n==============================================================================\n\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n    1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n    2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n    3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n    4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n    5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n    6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n    7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n    8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n    9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n    END OF TERMS AND CONDITIONS\n\n    APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n    Copyright [yyyy] [name of copyright owner]\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\n\n---- LLVM Exceptions to the Apache 2.0 License ----\n\nAs an exception, if, as a result of your compiling your source code, portions\nof this Software are embedded into an Object form of such source code, you\nmay redistribute such embedded portions in such Object form without complying\nwith the conditions of Sections 4(a), 4(b) and 4(d) of the License.\n\nIn addition, if you combine or link compiled forms of this Software with\nsoftware that is licensed under the GPLv2 (\"Combined Software\") and if a\ncourt of competent jurisdiction determines that the patent provision (Section\n3), the indemnity provision (Section 9) or other Section of the License\nconflicts with the conditions of the GPLv2, you may retroactively and\nprospectively choose to deem waived or otherwise exclude such Section(s) of\nthe License, but only in their entirety and only with respect to the Combined\nSoftware.\n\n==============================================================================\nSoftware from third parties included in the LLVM Project:\n==============================================================================\nThe LLVM Project contains third party software which is under different license\nterms. All such code will be identified clearly using at least one of two\nmechanisms:\n1) It will be in a separate directory tree with its own `LICENSE.txt` or\n   `LICENSE` file at the top containing the specific license and restrictions\n   which apply to that software, or\n2) It will contain specific license and restriction terms at the top of every\n   file.\n\n==============================================================================\nLegacy LLVM License (https://llvm.org/docs/DeveloperPolicy.html#legacy):\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2003-2019 University of Illinois at Urbana-Champaign.\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n"
-    filename = "LICENSE.TXT"
-
-    [[builds.deps]]
-    name = "XML2_jll"
-    uuid = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
-    compat = "*"
-    [[builds.deps]]
-    name = "Zlib_jll"
-    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
-    compat = "*"
-    [[builds.deps]]
-    name = "macOSSDK_jll"
-    uuid = "52f8e75f-aed1-5264-b4c9-b8da5a6d5365"
-    compat = "*"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:ef996512414090fb05c1de08040b1a924935cfa9"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:0bf8c56bc6f6b4cf2e78413306c4c5be5535573430c4ec369ee9d55ed65d9eef"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-build_log-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:6c15c5957303be0b1b9a2e41361178ecef1e8827"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:818bef9f6dccda4f3388828b592da036484d846b4e9f177df294ae9017afbb40"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-extract_log-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
-
-    [[builds.products]]
-    name = "clang"
-    type = "executable"
-    path = "bin/clang"
-    [[builds.products]]
-    name = "clangxx"
-    type = "executable"
-    path = "bin/clang++"
-
-    [[builds.sources]]
-    treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
-    url = "https://github.com/llvm/llvm-project.git"
-    [[builds.sources]]
-    treehash = "sha1:4b825dc642cb6eb9a060e54bf8d69288fbee4904"
-    url = "/home/sabae/src/BB2/bootstrap/ClangBootstrap/patches"
-
-    [builds.artifact]
-    treehash = "sha1:b653ffde4b4e77930a84b51cdacecafa4019be0c"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:846ad32a185a7c6a2494108fd872f17c91e789e215fb8b13e2285b7ffb173778"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+x86_64.tar.gz"
-[[builds]]
-name = "ClangBootstrap"
-platform = "aarch64-linux-gnu-target_os+macos-target_arch+aarch64"
-lazy = "false"
-src_version = "17.0.6"
-
-    [[builds.licenses]]
-    license_text = "==============================================================================\nThe LLVM Project is under the Apache License v2.0 with LLVM Exceptions:\n==============================================================================\n\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n    1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n    2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n    3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n    4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n    5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n    6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n    7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n    8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n    9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n    END OF TERMS AND CONDITIONS\n\n    APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n    Copyright [yyyy] [name of copyright owner]\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\n\n---- LLVM Exceptions to the Apache 2.0 License ----\n\nAs an exception, if, as a result of your compiling your source code, portions\nof this Software are embedded into an Object form of such source code, you\nmay redistribute such embedded portions in such Object form without complying\nwith the conditions of Sections 4(a), 4(b) and 4(d) of the License.\n\nIn addition, if you combine or link compiled forms of this Software with\nsoftware that is licensed under the GPLv2 (\"Combined Software\") and if a\ncourt of competent jurisdiction determines that the patent provision (Section\n3), the indemnity provision (Section 9) or other Section of the License\nconflicts with the conditions of the GPLv2, you may retroactively and\nprospectively choose to deem waived or otherwise exclude such Section(s) of\nthe License, but only in their entirety and only with respect to the Combined\nSoftware.\n\n==============================================================================\nSoftware from third parties included in the LLVM Project:\n==============================================================================\nThe LLVM Project contains third party software which is under different license\nterms. All such code will be identified clearly using at least one of two\nmechanisms:\n1) It will be in a separate directory tree with its own `LICENSE.txt` or\n   `LICENSE` file at the top containing the specific license and restrictions\n   which apply to that software, or\n2) It will contain specific license and restriction terms at the top of every\n   file.\n\n==============================================================================\nLegacy LLVM License (https://llvm.org/docs/DeveloperPolicy.html#legacy):\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2003-2019 University of Illinois at Urbana-Champaign.\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n"
-    filename = "LICENSE.TXT"
-
-    [[builds.deps]]
-    name = "XML2_jll"
-    uuid = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
-    compat = "*"
-    [[builds.deps]]
-    name = "Zlib_jll"
-    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
-    compat = "*"
-    [[builds.deps]]
-    name = "macOSSDK_jll"
-    uuid = "52f8e75f-aed1-5264-b4c9-b8da5a6d5365"
-    compat = "*"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f946ecf78cb404e821099358e7064f3032366035"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:80e68107cf196a764d2260cce92acdfca019aa092b1922ca6fd9789008ccd470"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-build_log-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4bf7e2b0e9008d77940ce83351d087c6906fda7c"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f331a8afbab450fbd0731cc52163595a97b09b0bba420e408ba280a0b0cb1613"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-extract_log-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
-
-    [[builds.products]]
-    name = "clang"
-    type = "executable"
-    path = "bin/clang"
-    [[builds.products]]
-    name = "clangxx"
-    type = "executable"
-    path = "bin/clang++"
-
-    [[builds.sources]]
-    treehash = "sha1:6009708b4367171ccdbf4b5905cb6a803753fe18"
-    url = "https://github.com/llvm/llvm-project.git"
-    [[builds.sources]]
-    treehash = "sha1:4b825dc642cb6eb9a060e54bf8d69288fbee4904"
-    url = "/home/sabae/src/BB2/bootstrap/ClangBootstrap/patches"
-
-    [builds.artifact]
-    treehash = "sha1:e8a97e3e0a13703aa0aa6efee30305b552ddf329"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:f6d079e1a06491a89068fdb906460e9aaf1a198be8f789650757eef00ff5814a"
-        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-v17.0.0-aarch64-linux-gnu-target_os+macos-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:d75e34e6fdbcd2b83abf1981c027868aa63a22b53da5396d518c44ece4d49a9d"
+        url = "https://github.com/staticfloat/ClangBootstrap_jll.jl/releases/download/v17.0.0-ClangBootstrap/ClangBootstrap-v17.0.0-aarch64-linux-gnu-target+any.tar.gz"
